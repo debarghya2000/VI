@@ -1,0 +1,2 @@
+export(variational_inference)
+export(plot_vi)

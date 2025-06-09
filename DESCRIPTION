@@ -1,0 +1,15 @@
+Package: VINormal
+Type: Package
+Title: Variational Inference for Multivariate Normal Approximation
+Version: 0.1.0
+Authors@R: person("YourName", "Surname", email = "your.email@example.com", role = c("aut", "cre"))
+Description: Estimate a multivariate normal distribution to approximate an unknown density using variational inference. Includes plotting functions for 2D and 3D visualization.
+Depends: R (>= 3.6)
+Imports: MASS, rgl, car, ggplot2, ellipse
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
